@@ -21,7 +21,7 @@ var pos = 0;
         let game = document.getElementById('game');
         let newimg = document.createElement('img');
         newimg.style.position = 'absolute';
-        newimg.src = 'images/PacMan1.png';
+        newimg.src = './images/PacMan1.png';
         newimg.width = Math.random()*100;
         // set position here 
         newimg.style.left = position.x;
@@ -62,18 +62,18 @@ var pos = 0;
         item.velocity.x = -item.velocity.x;
         if (item.velocity.x < 0) {
             if(!come){
-                item.newimg.src = 'images/PacMan4.png';
+                item.newimg.src = './images/PacMan4.png';
                 come = true
             } else {
-                item.newimg.src = 'images/PacMan3.png'; 
+                item.newimg.src = './images/PacMan3.png'; 
                 come = false;
             }
         } else { 
             if(!come){
-                item.newimg.src = 'images/PacMan2.png';
+                item.newimg.src = './images/PacMan2.png';
                 come = true
             } else {
-                item.newimg.src = 'images/PacMan1.png'; 
+                item.newimg.src = './images/PacMan1.png'; 
                 come = false;
             }
         }
@@ -83,9 +83,9 @@ var pos = 0;
         let come = false;
         item.velocity.y = -item.velocity.y;
         if (item.velocity.x < 0) {
-            item.newimg.src = 'images/PacMan3.png';
+            item.newimg.src = './images/PacMan3.png';
          } else { 
-            item.newimg.src = 'images/Pacman1.png';
+            item.newimg.src = './images/Pacman1.png';
          }
     }
 
