@@ -6,3 +6,9 @@ Cuando se presiona el botón "make one", se coloca la nueva imagen de pacman y a
 <a href="https://github.com/rolandovaldir/rolandovaldir.github.io">Volver a repositorio</a></p>
 
 <img src="./images/PacMan1.png">
+
+### How to run
+Simplemente descargue el repositorio y lleve el archivo index.html al buscador para ejecutar.
+
+#### RoadMap de mejoras
+1. Pestañear
