@@ -11,7 +11,7 @@ Cuando se presiona el botón "make one", se coloca la nueva imagen de pacman y a
 Simplemente descargue el repositorio y lleve el archivo index.html al buscador para ejecutar.
 
 #### RoadMap de mejoras
-1. Implementacion de un laberinto
+1. Implementacion de un laberinto, donde los pacman tienes que ir recorriendo el camino del mismo
 
 #### <a href="https://github.com/rolandovaldir/Portfolio_PacMen/blob/main/LICENSE"> Licencia </a>
 
